@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+}
+
+.textbox{
+  width: 50px;
+  margin-right: 10px;
+  height:50px;
+  border-radius:5px;
+}
+@media only screen and (max-width: 600px) {
+  .textbox{
+    width: 40px;
+    margin-right: 5px;
+    height:50px;
+    border-radius:5px;
+  }
+}
